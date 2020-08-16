@@ -9,6 +9,8 @@ namespace SocketClient
     {
         static void Main(string[] args)
         {
+            Console.Title = "Client";
+
             try
             {
                 SendMessageFromSocket(11000);
